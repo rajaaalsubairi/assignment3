@@ -45,8 +45,7 @@ header {
 
 .top-nav {
     background-color:#a4735b;
-    margin-left: 1.25rem;
-    margin-right:1.25rem; 
+    margin:0 1.25rem;
 }
 
 .top-nav ul {
@@ -69,7 +68,7 @@ header {
     padding: 1.25rem 5%;
     color: #3f505d;
     text-decoration: none;
-    font-size: 1.05rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -92,6 +91,24 @@ h1 {
     overflow: hidden;
     text-align: center;
 }
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #3f505d;
+    margin: 1rem 0 0 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: .5rem 1.25rem 2rem;
+    line-height: 1.5rem;
+}
+
+
+
+    
+    
     
     
 
