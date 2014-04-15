@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family:'Buenard', Georgia, serif
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#f3c99e;
+}
+
+header {
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    width: 9.5rem;
+    margin: 1.25rem 5%;
+}
+
+.top-nav {
+    background-color:#a4735b;
+    margin-left: 1.25rem;
+    margin-right:1.25rem; 
+}
+
+.top-nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-nav li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+    
+.top-nav a,
+.top-nav a:link,
+.top-nav a:visited {
+    display: inline-block;
+    margin: 0;
+    padding: 1.25rem 5%;
+    color: #3f505d;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.billboard {
+    background-image: url(../images/teddybeadbillboard.jpg);
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13.5rem;
+    
+
+
+
+
