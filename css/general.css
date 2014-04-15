@@ -78,8 +78,21 @@ header {
     margin: 0;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 13.5rem;
+    background-position: center center;
+    background-size: 100%
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f3c99e;
+    text-transform: uppercase;
+    background-color: #3f505d;
+    margin: 12.5rem 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+    
     
 
 
