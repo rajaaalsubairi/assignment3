@@ -45,7 +45,7 @@ header {
 
 .top-nav {
     background-color:#a4735b;
-    margin:0 1.25rem;
+    margin: 0;
 }
 
 .top-nav ul {
@@ -55,7 +55,7 @@ header {
 }
 
 .top-nav li {
-    margin: 0;
+    margin: 0 5%;
     padding: 0;
     display: inline;
 }
@@ -79,17 +79,6 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%
-}
-
-h1 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #f3c99e;
-    text-transform: uppercase;
-    background-color: #3f505d;
-    margin: 12.5rem 0 0;
-    overflow: hidden;
-    text-align: center;
 }
 
 h2 {
@@ -133,6 +122,7 @@ figcaption {
 figure a {
     text-decoration: none;
 }
+
 
 
     
