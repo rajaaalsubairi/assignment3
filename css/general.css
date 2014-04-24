@@ -123,29 +123,26 @@ figure a {
     text-decoration: none;
 }
 
+.contact {
+    background-size: 100%;
+    overflow: hidden;
+}
+
 .icons {
     float: left;
     width: 15%;
     margin: 1.25rem 5%;
     padding: 0;
+    background-size: 100%;
 }
 
+footer {
+    margin: 1rem 0 0;
+    background-color: #573626;
+    overflow: hidden;
+}
 
-
-
-    
-
-
-
-
-    
-    
-
-    
-    
-    
-    
-
-
-
-
+footer p {
+    color: #f3c99e;
+    font-size: .75rem;
+}
