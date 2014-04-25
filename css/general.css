@@ -92,11 +92,11 @@ h2 {
     font-size: 1.25rem;
     font-weight: 400;
     color: #3f505d;
-    margin: 1rem 0 0 1.25rem;
+    margin: 1rem 0 0 5%;
 }
 p {
     font-size: 1rem;
-    margin: .5rem 1.25rem 2rem;
+    margin: .5rem 5% 2rem;
     line-height: 1.5rem;
 }
 
@@ -151,9 +151,28 @@ footer {
 footer p {
     color: #f3c99e;
     font-size: .75rem;
+    margin: 1.25rem 5% 1.25rem;
 }
 
-.selected:hover {
+.selected {
     background-color: #f3c99e;
 }
-    
+
+.teddy figure {
+    float: left;
+    width: 40%;
+    margin: 1.25rem 5%;
+    padding: 0;
+}
+
+.teddy figure:nth-child(even) {
+    margin: 1.25rem 5% ;
+}
+
+figcaption {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #3f505d;
+    color: #f3c99e;
+    font-weight: 400;
+} 
